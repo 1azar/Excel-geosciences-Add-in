@@ -7,3 +7,6 @@ All add-in features descriptions are on the [wiki](https://github.com/1azar/Exce
 * Open the Excel workbook. In menu bar go to: ```File -> Options -> Add-ins -> Go.. -> Browse``` and select ```C:\Excel-geosciences-Add-in\las_magi\Las_magi_add-in.xlam```
 * Make sure the checkbox next to the ```Las_Magi_Add-in``` is enabled and click ```OK```
 * At this point, the add-in should be installed and able to work in any open workbook. To check the correctness of the add-in, write ```=Generate_matrix(3;3)``` in any cell, this function will insert 4x4 matrix on the sheet.
+
+### Removal
+* In Excels menu bar go to: ```File -> Options -> Add-ins -> Go..``` and unable the check box next to ```Las_Magi_Add-in``` then click ```OK```
